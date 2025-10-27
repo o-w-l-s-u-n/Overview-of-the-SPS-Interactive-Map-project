@@ -46,7 +46,7 @@ const handleMarkerClick = (project: objectProject, isAuto?: boolean) => {
 
 ```tsx
 // src/components/projectMenu/ProjectMenuContext.tsx
-export function ProjectMenuProvider({ children }: { children: React.ReactNode }) {
+export function ProjectMenuProvider({ children }: { children: ReactNode }) {
   const [activeProject, setActiveProject] = useState<objectProject | null>(null);
 
   const selectProject = (project: objectProject | null) => {
