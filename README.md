@@ -1,9 +1,5 @@
 # SPS Map: интерактивная карта индустриальных проектов с живыми данными
 
-<video src="spsmapvid.mp4" controls muted loop playsinline width="720">
-  Sorry, your browser doesn't support embedded videos.
-</video>
-
 > Дашборд для «СПС» собирает на одном экране карту строительства, актуальные новости и витрину специалистов. Всё написано на Next.js 14 и TypeScript, а данные в реальном времени подкачиваются из корпоративных API.
 
 ## Архитектура и стек
