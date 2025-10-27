@@ -121,7 +121,7 @@ const { data: profiData, isLoading: profiLoading } = useSWR(
 );
 
 const { data: newsData, isLoading: newsLoading } = useSWR(
-  "https://lk.sps38.pro/api/news-list?limit=999&page=0&order=DESC&sort=create",
+  "https://apiurl",
   fetcher,
   {
     refreshInterval: 600_000, // 10 минут
